@@ -1,0 +1,18 @@
+<svg width="180" height="60" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="62" width="182" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(2.279103665463699,0,0,1.7544402838493054,-119.94404147436931,-22.854287996131163) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_1" y="38.699999" x="54.5" stroke-width="0" fill="#009aff">Cii</text>
+  <text stroke="#000" transform="matrix(10.372733162603708,0,0,2.9823719438621765,-849.3348701913703,1.5765558872373173) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_2" y="20.699999" x="90.5" stroke-opacity="null" stroke-width="0" fill="#009aff"/>
+  <text stroke="#000" transform="matrix(5.169052371145556,0,0,1.3563283156060917,-233.72418239021806,171.6753002272065) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_4" y="46.699999" x="124.5" stroke-opacity="null" stroke-width="0" fill="#009aff"/>
+  <text stroke="#000" transform="matrix(24.84476089477539,0,0,1,-2444.0879917144775,0) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_6" y="36.699999" x="102.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#009aff"/>
+  <text stroke="#000" transform="matrix(1.6252221787135372,0,0,1.7669908149489284,-126.48585869540113,-14.804013742214803) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_7" y="34.173502" x="123.123402" stroke-opacity="null" stroke-width="0" fill="#f7f7f9">YUN</text>
+ </g>
+</svg>

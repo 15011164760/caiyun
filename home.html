@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html class="not-ie js js no-touch gumby-no-touch webp csstransforms csstransforms3d csstransitions" lang="en" dir="ltr"
+      style="height: auto;"><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 刘颖de code  -->
+    <link rel="shortcut icon" href="sites/toolbox/files/images/favicon.ico"
+          type="image/vnd.microsoft.icon">
+    
+
+    <!-- <meta name="Generator" content="Drupal 7 (http://drupal.org)"> -->
+    <style type="text/css">.loading-screen .logo {
+        width: px;
+        height: px;
+    }</style>
+    <title>CiiYUN | Data Collection Tools for Challenging Environments</title>
+    <style type="text/css" media="all">
+        @import url("modules/system/system.base.css");
+        @import url("modules/system/system.menus.css");
+        @import url("modules/system/system.messages.css");
+        @import url("modules/system/system.theme.css");
+    </style>
+    <style type="text/css" media="all">
+        @import url("modules/comment/comment.css");
+        @import url("modules/field/theme/field.css");
+        @import url("modules/node/node.css");
+        @import url("modules/search/search.css");
+        @import url("modules/user/user.css");
+        @import url("sites/all/modules/views/css/views.css");
+        @import url("sites/all/modules/ckeditor/css/ckeditor.css");
+    </style>
+    <style type="text/css" media="all">
+        @import url("sites/all/modules/ctools/css/ctools.css");
+    </style>
+    <style type="text/css" media="all">
+        @import url("sites/toolbox/themes/Rise/css/gumby.css");
+        @import url("sites/toolbox/themes/Rise/css/style.css");
+        @import url("sites/toolbox/themes/Rise/css/mobile.css");
+        @import url("sites/toolbox/themes/Rise/css/drupal.css");
+        @import url("sites/toolbox/themes/Rise_sub/css/custom.css");
+        @import url("sites/toolbox/themes/Rise_sub/css/mobile_custom.css");
+    </style>
+    <!--<script type="text/javascript" id="www-widgetapi-script" src="Environments_files/www-widgetapi.js" async=""></script>-->
+    <!--<script src="Environments_files/iframe_api"></script>-->
+    <script async="" src="Environments_files/analytics.js"></script>
+    <script type="text/javascript" src="Environments_files/jquery.min.js"></script>
+    <script type="text/javascript" src="Environments_files/jquery.once.js"></script>
+    <script type="text/javascript" src="Environments_files/drupal.js"></script>
+    <script type="text/javascript" src="Environments_files/googleanalytics.js"></script>
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","js/analytics.js","ga");ga("create", "UA-26003863-1", {"cookieDomain":".ciiyun.com"});ga("send", "pageview");
+//--><!]]>
+    </script>
+    <script type="text/javascript" src="Environments_files/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="Environments_files/gumby.min.js"></script>
+    <script type="text/javascript" src="Environments_files/jquery.browser.min.js"></script>
+    <!-- //58 -->
+    <script type="text/javascript" src="Environments_files/plugins.js"></script>
+    <script type="text/javascript" src="Environments_files/main.js"></script>
+    <script type="text/javascript" src="Environments_files/matchMedia.js"></script>
+    <script type="text/javascript" src="Environments_files/ajax.js"></script>
+    <!--<script type="text/javascript" src="Environments_files/jquery.tubular.1.0.js"></script>-->
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"rise_sub","theme_token":"_6fAdfz1uX3jPRdx_Wd_u4McfX9U8kHqxcNHtvLRqLM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/toolbox\/themes\/Rise\/js\/libs\/modernizr-2.6.2.min.js":1,"sites\/toolbox\/themes\/Rise\/js\/libs\/gumby.min.js":1,"sites\/toolbox\/themes\/Rise\/js\/jquery.browser.min.js":1,"sites\/toolbox\/themes\/Rise\/js\/plugins.js":1,"sites\/toolbox\/themes\/Rise\/js\/main.js":1,"sites\/toolbox\/themes\/Rise\/js\/matchMedia.js":1,"sites\/toolbox\/themes\/Rise\/js\/ajax.js":1,"sites\/toolbox\/themes\/Rise\/js\/jquery.tubular.1.0.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/toolbox\/themes\/Rise\/css\/gumby.css":1,"sites\/toolbox\/themes\/Rise\/css\/style.css":1,"sites\/toolbox\/themes\/Rise\/css\/mobile.css":1,"sites\/toolbox\/themes\/Rise\/css\/drupal.css":1,"sites\/toolbox\/themes\/Rise_sub\/css\/custom.css":1,"sites\/toolbox\/themes\/Rise_sub\/css\/mobile_custom.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":"1"}});
+//--><!]]>
+    </script>
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- abril font -->
+    <link href="Environments_files/css.css" rel="stylesheet" type="text/css">
+    <!-- san font -->
+    <link href="Environments_files/css(1).css" rel="stylesheet" type="text/css">
+    <!-- serif font -->
+    <link href="Environments_files/css(2).css" rel="stylesheet" type="text/css">
+
+    <!-- User defined CSS -->
+    <style type="text/css"></style><!-- End user defined CSS -->
+
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-3 node-type-page">
+<!-- header -->
+<header>
+    <div class="row navbar">
+        <!-- logo -->
+        <div class="three columns logo">
+            <div id="logo">
+                <!-- <a href="#" title="Home" rel="home">Cii</a>
+                <a>YUN</a> -->
+                <img src="Environments_files/kobologo.svg" alt="">
+            </div>
+        </div>
+        <!-- navigation -->
+        <div class="nine columns" id="nav">
+            <div class="nav-button">
+                <a class="white-text"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <ul class="navigation">
+                <li class="active">
+                    <a href="#block-views-intro-block-block" class="skip" data-goto="#block-views-intro-block-block"
+                       data-duration="800" data-offset="-50" data-update="">首页</a>
+                </li>
+                <li class="">
+                    <a href="#block-views-skills-and-services-block" class="skip"
+                       data-goto="#block-views-skills-and-services-block" data-duration="800" data-offset="-50"
+                       data-update="">采云特点</a>
+                </li>
+                <li>
+                    <a href="#block-block-9" class="skip" data-goto="#block-block-9" data-duration="800"
+                       data-offset="-50" data-update="">价格详情</a>
+                </li>
+                <li>
+                    <a href="#block-block-20" class="skip" data-goto="#block-block-20" data-duration="800"
+                       data-offset="-50" data-update="">关于采云</a>
+                </li>
+                <li>
+                    <a href="#block-block-14" class="skip" data-goto="#block-block-14" data-duration="800"
+                       data-offset="-50" data-update="">联系我们</a>
+                </li>
+                <li>
+                    <a href="#">客户支持</a>
+                </li>
+                <li id="register-in">
+                    <a href="/accounts/register/">注册</a>
+                </li>
+                <li id="login-in">
+                    <a href="/accounts/login/">登录</a>
+                </li>
+                <li id="login-in-form">
+                    <a href="/#/forms">进入采云</a>
+                </li>
+                <li id="login-in-user">
+                    <span id="login-in-user-a" class="user-name">yangdongxu</span>
+                    <span class="caret"></span>
+                     <a href="/accounts/logout/" id="login-out-user1">个人中心
+                     </a>
+                    <a href="/accounts/logout/" id="login-out-user">退出</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+</header>
+<!-- end header -->
+<div id="block-views-intro-block-block" class="block block-views">
+
+
+    <!-- begin intro-->
+
+    <div id="intro"
+         class="view view-intro-block view-id-intro_block view-display-id-block view-dom-id-b1e666701521649afe1a9ea9edb3504e tint">
+
+
+        <!-- intro text goes here -->
+        <section class="row intro-text">
+            <h1>随时随地 数据采集</h1>
+
+            <!-- intro text carousel -->
+            <div class="intro-text-slider">
+                <ul class="slides">
+                    <li class=""
+                        style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                        <h5>轻松创建表单</h5>
+                    </li>
+                    <li class=""
+                        style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                        <h5>适用多种环境</h5>
+                    </li>
+                    <li class=""
+                        style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                        <h5>在线或离线方式建立表单，收集、分析数据</h5>
+                    </li>
+                    <li class="flex-active-slide"
+                        style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
+                        <h5>一人创建，多人共享</h5>
+                    </li>
+                </ul>
+            </div>
+           <div class="frontclients centered">
+                <div class="row clients">
+            <div>
+                        <h6>&nbsp;</h6>
+                        <img src="Environments_files/ciiyun_partners.png">
+                    </div>
+                    <div class="five columns support__harvard">
+                        <h6>&nbsp;</h6>
+                        <img src="Environments_files/kobo_harvard.png">
+                    </div>
+                    <div class="six columns support__partners">
+                        <h6></h6>
+                        <img src="Environments_files/kobo_partners.png">
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+        </section>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+
+                $.supersized({
+
+                    // Functionality
+                    slideshow: 1,			// Slideshow on/off
+                    autoplay: 0,			// Slideshow starts playing automatically
+                    start_slide: 1,			// Start slide (0 is random)
+                    stop_loop: 0,			// Pauses slideshow on last slide
+                    random: 0,			// Randomize slide order (Ignores start slide)
+                    slide_interval: 5000,		// Length between transitions
+                    transition: 6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                    transition_speed: 800,		// Speed of transition
+                    new_window: 1,			// Image links open in new window/tab
+                    pause_hover: 0,			// Pause slideshow on hover
+                    keyboard_nav: 1,			// Keyboard navigation on/off
+                    performance: 1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+                    image_protect: 1,			// Disables image dragging and right click with Javascript
+
+                    // Size & Position
+                    min_width: 0,			// Min width allowed (in pixels)
+                    min_height: 0,			// Min height allowed (in pixels)
+                    vertical_center: 1,			// Vertically center background
+                    horizontal_center: 1,			// Horizontally center background
+                    fit_always: 0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+                    fit_portrait: 1,			// Portrait images will not exceed browser height
+                    fit_landscape: 0,			// Landscape images will not exceed browser width
+
+                    // Components
+                    slide_links: 'blank',	// Individual links for each slide (Options: false, 'number', 'name', 'blank')
+                    thumb_links: 0,			// Individual thumb links for each slide
+                    thumbnail_navigation: 0,			// Thumbnail navigation
+                    slides: [			// Slideshow Images
+
+                        {
+                            image: "sites/toolbox/files/images/front_background2.jpg",
+                            title: '',
+                            thumb: '',
+                            url: ''
+                        }
+                    ],
+
+                    // Theme Options
+                    progress_bar: 1,			// Timer for each slide
+                    mouse_scrub: 0
+
+                });
+            });
+
+        </script>
+
+
+    </div>
+</div>
+<div id="block-views-skills-and-services-block" class="block block-views">
+
+
+    <!-- begin intro-->
+
+    <!-- BEGIN SERVICES -->
+    <div id="services">
+        <div class="grey">
+
+            <section class="row heading">
+                <h2 class="ten columns centered s-bold">采云特点</h2>
+            </section>
+
+            <!-- begin services -->
+            <section class="row midtoppadding">
+
+
+                <!-- service -->
+                <div class="four columns service">
+                    <div class="img-box">
+                        <div class="field field-name-field-client-images field-type-image field-label-hidden">
+                            <div class="field-items">
+                                <div class="field-item even">
+                                    <img typeof="foaf:Image"
+                                         src="Environments_files/formbuilder_features.png" width="500"
+                                         height="320" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- service info -->
+                    <h5 class="s-bold">创建表单，重复使用其中对象</h5>
+                    <p></p>
+                    <div class="field field-name-field-feature-summary field-type-text field-label-hidden">
+                        <div class="field-items">
+                            <div class="field-item even">
+                                通过我们直观而强大的工具轻松创建调查表单。 将重复的问题存储在您的数据库中或与同事共享表单。
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <!-- read more button -->
+                    <div class="modal-button">
+                        <a href="https://www.ciiyun.com/home/" data-trigger="#modal_5"
+                           class="rise-btn small outline dark centered switch">了解更多</a>
+
+                    </div>
+                </div>
+
+                <!-- service 2 modal direction -->
+                <div class="srvc">
+                    <div id="modal_5" class="modal">
+                        <div class="content white">
+                            <!-- we use gumby-trigger to close modal with id#direction
+                                your can have as many models as your choose just use different ids -->
+                            <a class="close switch active" data-trigger="|#modal_5">
+                                <i class="fa fa-times black-text"></i>
+                            </a>
+                            <div class="row">
+                                <div class="modal-label">
+                                    <h6 class="small-radius s-bold">FEATURES</h6>
+                                </div>
+                                <!-- content side -->
+                                <div class="eight columns alpha smalltoppadding">
+                                    <div class="heading left-text">
+                                        <h2>BUILD FORMS AND REUSE EXISTING QUESTIONS</h2>
+                                    </div>
+                                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                        <div class="field-items">
+                                            <div class="field-item even" property="content:encoded">
+                                                <p>
+                                                    Easily create allkinds of survey forms through our intuitive yet
+                                                    powerful tool. With the
+                                                    help of our question library you can also easily re-use questions or
+                                                    entire sections from your previous forms when preparing for new
+                                                    surveys.
+                                                </p>
+                                                <h3>Easy to use</h3>
+                                                <p>
+                                                    The formbuilder was built from the ground up to be simple and easy
+                                                    for anyone to use. It doesn't require any technical knowledge or
+                                                    advanced training. Yet, it also allows for building the most complex
+                                                    and advanced forms. This means <b>it is meant for anyone
+                                                    from&nbsp;</b><b>a first time user to&nbsp;</b><b>the most
+                                                    advanced survey administrator</b>.&nbsp;
+                                                </p>
+                                                <h3>Powerful and compatible</h3>
+                                                <p>
+                                                    Under the hood CiiYUN uses the extremely versatile XLSForm standard.
+                                                    This means our forms are 100% compatible with other popular tools.
+                                                    It also means our forms can be exported to and imported from Excel
+                                                    for advanced technical users doing batch manipulation.&nbsp;
+                                                </p>
+                                                <h3>Question Library</h3>
+                                                <p>
+                                                    Good survey forms are often built by re-using tried and true
+                                                    questions from previous surveys. Our question library makes this
+                                                    process easy and straightforward. This feature is being further
+                                                    expanded in the coming months to allow sharing entire question
+                                                    libraries with colleagues or even make them available publicly.&nbsp;
+                                                </p>
+                                                <p>If you have any questions about building forms or need help, <a
+                                                        href="#">please visit our support pages</a>.&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- service icon -->
+                                <div class="four columns">
+                                    <div class="profile_pic">
+                                        <div class="field field-name-field-client-images field-type-image field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even">
+                                                    <img typeof="foaf:Image"
+                                                         src="Environments_files/formbuilder_features.png"
+                                                         width="500" height="320" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end service 2 modal -->      <!-- service -->
+                <div class="four columns service">
+                    <div class="img-box">
+                        <div class="field field-name-field-client-images field-type-image field-label-hidden">
+                            <div class="field-items">
+                                <div class="field-item even">
+                                    <img typeof="foaf:Image"
+                                         src="Environments_files/datacollection_500px.png" width="500"
+                                         height="320" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- service info -->
+                    <h5 class="s-bold">收集数据</h5>
+                    <p></p>
+                    <div class="field field-name-field-feature-summary field-type-text field-label-hidden">
+                        <div class="field-items">
+                            <div class="field-item even">
+                                通过Android手机、平板等其他设备快速、可靠地以多种语言和复杂的跳转逻辑在线或离线收集您的调查数据。
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <!-- read more button -->
+                    <div class="modal-button">
+                        <a href="https://www.ciiyun.com/home/" data-trigger="#modal_6"
+                           class="rise-btn small outline dark centered switch">了解更多</a>
+
+                    </div>
+                </div>
+
+                <!-- service 2 modal direction -->
+                <div class="srvc">
+                    <div id="modal_6" class="modal">
+                        <div class="content white">
+                            <!-- we use gumby-trigger to close modal with id#direction
+                                your can have as many models as your choose just use different ids -->
+                            <a class="close switch active" data-trigger="|#modal_6"><i
+                                    class="fa fa-times black-text"></i></a>
+                            <div class="row">
+                                <div class="modal-label">
+                                    <h6 class="small-radius s-bold">FEATURES</h6>
+                                </div>
+                                <!-- content side -->
+                                <div class="eight columns alpha smalltoppadding">
+                                    <div class="heading left-text">
+                                        <h2>COLLECT DATA</h2>
+                                    </div>
+                                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                        <div class="field-items">
+                                            <div class="field-item even" property="content:encoded">
+                                                <p>
+                                                    Quickly andreliably collect your survey data on any device, online
+                                                    or offline. Our
+                                                    Android app, based on OpenDataKit, uses the power and experience of
+                                                    of
+                                                    hundreds of thousands of interviews conducted all over the world.
+                                                    Our
+                                                    webforms integration, based on Enketo, also allows collecting data
+                                                    on
+                                                    iPhones, laptops, or any other device.
+                                                </p>
+                                                <h3>Online/Offline</h3>
+                                                <p>Our tools were built for the most demanding contexts where Internet
+                                                    connectivity is the exception, not the rule. Surveys can be
+                                                    conducted entirely while being offline, regardless what kind of
+                                                    device is being used during the collection process.&nbsp;
+                                                </p>
+                                                <h3>Data Integrity</h3>
+                                                <p>Collected information is stored safely. Synchronization via SSL
+                                                    ensures that your data can't be read by a third party. Strong
+                                                    safeguards exist also for avoiding data loss even during very long
+                                                    interviews.</p>
+                                                <h3>Easy Synchronization</h3>
+                                                <p>Uploading data is straightforward and can take place on demand or in
+                                                    the background whenever Internet connectivity kind is available.&nbsp;
+                                                </p>
+                                                <p>&nbsp;</p>
+                                                <p>If you have any questions about collecting data or need help, please
+                                                    visit our&nbsp;<a href="#">support pages</a>.
+                                                </p>
+                                                <p>&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- service icon -->
+                                <div class="four columns">
+                                    <div class="profile_pic">
+                                        <div class="field field-name-field-client-images field-type-image field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even">
+                                                    <img typeof="foaf:Image"
+                                                         src="Environments_files/datacollection_500px.png"
+                                                         width="500" height="320" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end service 2 modal -->      <!-- service -->
+                <div class="four columns service">
+                    <div class="img-box">
+                        <div class="field field-name-field-client-images field-type-image field-label-hidden">
+                            <div class="field-items">
+                                <div class="field-item even">
+                                    <img typeof="foaf:Image" src="Environments_files/kc_map.png"
+                                         width="500" height="320" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- service info -->
+                    <h5 class="s-bold">分析和管理数据</h5>
+                    <p></p>
+                    <div class="field field-name-field-feature-summary field-type-text field-label-hidden">
+                        <div class="field-items">
+                            <div class="field-item even">
+                                在收集数据后立即检查数据，或者以Excel，CSV，KML和其他数据格式下载数据，从而进行更高级的分析。
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <!-- read more button -->
+                    <div class="modal-button">
+                        <a href="#" data-trigger="#modal_7" class="rise-btn small outline dark centered switch">了解更多</a>
+
+                    </div>
+                </div>
+
+                <!-- service 2 modal direction -->
+                <div class="srvc">
+                    <div id="modal_7" class="modal">
+                        <div class="content white">
+                            <!-- we use gumby-trigger to close modal with id#direction
+                                your can have as many models as your choose just use different ids -->
+                            <a class="close switch active" data-trigger="|#modal_7"><i
+                                    class="fa fa-times black-text"></i></a>
+                            <div class="row">
+                                <div class="modal-label">
+                                    <h6 class="small-radius s-bold">FEATURES</h6>
+                                </div>
+                                <!-- content side -->
+                                <div class="eight columns alpha smalltoppadding">
+                                    <div class="heading left-text">
+                                        <h2>ANALYZE AND MANAGE DATA</h2>
+                                    </div>
+                                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                        <div class="field-items">
+                                            <div class="field-item even" property="content:encoded">
+                                                <p>Inspect your data
+                                                    moments after it was collected - or download it for advanced
+                                                    analysis in
+                                                    other software. CiiYUN includes simple tools for creating tables,
+                                                    summarizing indicators - and of course a map showing all of your
+                                                    collected GPS coordinates.&nbsp;
+                                                </p>
+                                                <h3>Quick Analysis</h3>
+                                                <ul>
+                                                    <li>
+                                                        Create summary tables for all indicators without having to
+                                                        download the data
+                                                    </li>
+                                                    <li>
+                                                        Summarize using simple frequencies or calculating averages
+                                                        (mean, median, and mode)
+                                                    </li>
+                                                </ul>
+                                                <h3>Mapping</h3>
+                                                <ul>
+                                                    <li>
+                                                        Immediately see colected points
+                                                    </li>
+                                                    <li>
+                                                        Disaggregate data points by survey responses (such as gender or
+                                                        education level)
+                                                    </li>
+                                                    <li>
+                                                        Download all GPS points as KML file to integrate into other
+                                                        software
+                                                    </li>
+                                                </ul>
+                                                <h3>
+                                                    Downloading data</h3>
+                                                <ul>
+                                                    <li>
+                                                        Download all your data and in Excel, CSV, SPSS, and other
+                                                        formats
+                                                    </li>
+                                                    <li>
+                                                        Download all collected media (images, videos, sound recordings)
+                                                        as a ZIP file
+                                                    </li>
+                                                    <li>
+                                                        Data can also be accessed by other means through a robust API
+                                                    </li>
+                                                </ul>
+                                                <p>If you have any questions about managing and exporting collected data
+                                                    or need help to get started, please <a href="#">visit our support
+                                                        pages</a>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- service icon -->
+                                <div class="four columns">
+                                    <div class="profile_pic">
+                                        <div class="field field-name-field-client-images field-type-image field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even">
+                                                    <img typeof="foaf:Image"
+                                                         src="Environments_files/kc_map.png" width="280"
+                                                         height="200" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end service 2 modal -->
+
+
+            </section>
+        </div>
+    </div>
+</div>
+<div id="block-block-8" class="block block-block">
+
+    <div>
+    <section class="row"><!-- left side -->
+        <div class="ten columns centered center">
+            <div class="heading">
+                <h2 class="light center">
+                    <span class="s-bold title-common">初次使用</span>
+                </h2>
+            </div>
+            <p class="smallbottompadding"><a href="#" >快速了解采云所有特点</a>
+            </p>
+            <p class="smallbottompadding">
+                
+                    我们提供了详细的用户指南和广泛的支持系统 在 <a href="https://www.ciiyun.com">www.ciiyun.com</a>并且
+                    我们的团队会尽快回答 所有问题。&nbsp;
+                
+            </p>
+        </div>
+        <!-- right side, HIDDEN FOR NOW
+        <div class="six columns">
+            <article class="vimeo video"><iframe src="http://www.youtube.com/embed/-Wi5W6A19vc?rel=0"></iframe></article></div>-->
+    </section>
+</div>
+
+</div>
+<!-- 表格开始 -->
+<div id="block-block-9" class="block block-block">
+
+    <div class="grey" id="getstarted">
+        <section class="row  midtoppadding heading">
+            <h1 id="h1zhong">
+                价格详情
+            </h1>
+               <div class="per-y-div" id="per-y-div">
+                   <!-- <a class="per-y-m1 per-year">年付</a> -->
+                   <a class="per-y-m1 per-month">月付</a>
+               </div>
+        </section> 
+        <!-- <div class="row-tabsa row" id="row-tabsa-year"> 
+             <div class="plan plans4">
+                 <div class="plan-inner plan-inner1">
+                     <h3 class="panel-title">免费版</h3>
+                     <div class="plan-target">学生、轻度使用者</div>
+                     <div class="price-container">
+                        ￥<span class="price">0</span>/<span class="price-unit">年</span>
+                    </div>
+                    <ul class="description">
+                        <li>每月提交50条数据</li>
+                        <li>27种免费字段</li>
+                        <li>强大的表单设计器</li>
+                    </ul>
+                    <br>
+                    <div>
+                        <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-success" href="#">免费体验</a>
+                    </div>
+                 </div>
+             </div>
+             <div class="plan plan-highlight popular popularding">
+                    <div class="plan-inner plan-inner2">
+                      <h3 class="panel-title">专业版</h3>
+                      <div class="plan-target">职场人员、营销人员、公众号运营者</div>
+                        <div class="price-container">
+                        ￥<span class="price">99</span>/<span class="price-unit">年</span>
+                        </div>
+        
+                      <ul class="description">
+                        <li>每月提交10万条数据</li>
+                        <li>每月上传1GB附件量</li>
+                        <li>数据恢复</li>
+                        <li>自定义短信和Email</li>
+                        <li>商品字段，支持微信</li>
+                      </ul>
+                      <br>
+                      <div>
+                        <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-primary-solid plan-btn" href="#">立即购买</a>
+                      </div>
+                    </div>
+            </div>
+            <div class="plan planpro">
+                <div class="plan-inner plan-inner3">
+                  <h3 class="panel-title">专业增强版</h3>
+                  <div class="plan-target">中小型团队</div>
+                  <div class="price-container">
+                 ￥<span class="price">1,999</span>/<span class="price-unit">年</span>
+                 </div>
+        
+                  <ul class="description">
+                    <li>包含专业版所有功能</li>
+                    <li>每月收集10万条数据</li>
+                    <li>每月上传5GB附件量</li>
+                    <li>隐藏金数据Logo</li>
+                    <li>自定义表单域名</li>
+                    <li>跨表单数据关联</li>
+                  </ul>
+                  <div>
+                    <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-primary-solid plan-btn" href="/login?redirect_to=%2Fplan_payment">立即购买</a>
+                  </div>
+                </div>
+            </div>
+             <div class="plan plan-special plans4" data-can-pay="true">
+                <div class="plan-inner">
+                  <h3 class="panel-title">企业版</h3>
+                  <div class="plan-target">大型企业、集团</div>
+                  <div class="price-container">
+                    ￥<span class="price">3,999</span>起
+                  </div>
+                  <ul class="description">
+                    <li>包含专业增强版所有</li>
+                    <li>独立二级域名，更</li>
+                    <li>支持子账户协作</li>
+                    <li>多级下拉框，计算字</li>
+                    <li>仅限微信粉丝填写</li>
+                    <li>绑定微信企业号、钉</li>
+                  </ul>
+                  <div>
+                    <a class="pay-btn gd-btn gd-btn-info gd-btn-thick gd-btn-wide" href="#">了解更多</a>
+                  </div>
+                </div>
+            </div>
+          
+         </div> -->
+         
+         <div class="row-tabsa row" id="row-tabsa-month"> 
+             <div class="plan plans4">
+                 <div class="plan-inner plan-inner1">
+                     <h3 class="panel-title">免费版</h3>
+                     <!-- <div class="plan-target">学生、轻度使用者</div> -->
+                     <div class="price-container">
+                        ￥<span class="price">0</span>/<span class="price-unit">月</span><span class="price" style="color:#CCC">|</span>
+                        ￥<span class="price">0</span>/<span class="price-unit">年</span>
+                    </div>
+                    <ul class="description">
+                        <li>表单数：10</li>
+                        <li>表单提交数：100次/月</li>
+                        <li>数据存储：500M </li>
+                        <li>共享人数最多：100人</li>
+                        <li>地图和自动报表</li>
+                        <li>移动端APP</li>
+                        <li>移动端离线地图功能</li>
+                        <li>在线表单构建</li>
+                        <li>在线表单问题库</li>
+                        <li>共享权限设定</li>
+                        <li>支持:EMALL/QQ</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                    </ul>
+                    <div>
+                        <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-success" href="#">免费体验</a>
+                    </div>
+                 </div>
+             </div>
+             <div class="plan plan-highlight popular popularding">
+                    <div class="plan-inner plan-inner2">
+                      <h3 class="panel-title">标准版</h3>
+                      <!-- <div class="plan-target">职场人员、营销人员、公众号运营者</div> -->
+                        <div class="price-container">
+                        ￥<span class="price">49</span><span class="price-unit">/月</span><span class="price" style="color:#CCC">|</span>
+                        ￥<span class="price">499</span>/<span class="price-unit">年</span>
+                        </div>
+                    <ul class="description">
+                        <li>表单数：100</li>
+                        <li>表单提交数：1000次/月</li>
+                        <li>数据存储：1G </li>
+                        <li>共享人数：1000人</li>
+                        <li>地图和自动报表</li>
+                        <li>移动端APP</li>
+                        <li>移动端离线地图功能</li>
+                        <li>在线表单构建</li>
+                        <li>在线表单问题库</li>
+                        <li>共享权限设定</li>
+                        <li>支持：EMALL/QQ</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                    </ul>
+                    <!-- 模态框开始 -->
+                     <div id="touming">
+                             <div class="buythingxia">
+                                <div class="modal-header">
+                                    <button type="button" class="closepricehou">×</button>
+                                    <h4 class="modal-title">套餐购买</h4>
+                                </div>
+                                <div class="modal-body">
+                                            <div class="purchase-user-container">
+                                              <div class="col-user-avatar">
+                                                <img class="avatar" src="fonts/sddefault.jpg">
+                                              </div>
+                                              <div class="col-user-name-with-plan name-with-vip-style">
+                                                <span class="vip-user free_user">
+                                                  七彩祥云 (1881042779)
+                                                </span><br>
+                                                <span class="plan-label free-user">当前套餐：企业版
+                                                        <!-- <span class="vip-user free-user"><span> -->
+                                                    <!-- <span class="name-with-vip-style"> -->
+                                                    <!-- </span> -->
+                                                 </span>
+                                              </div>
+                                              <div style="clear:both"></div>
+                                            </div>
+                                        <div class="choosetime">
+                                                <div class="pay-title">选择时间</div>
+                                                <div class="pay-choice-container">
+                                                    <label class="pay-choice pay-choice1">
+                                                      <span class="price1">49</span>元/月(省0元)
+                                                    </label> 
+                                                     <label class="pay-choice pay-choice1">
+                                                      <span class="price1 priceyear">499</span>元/年(省0元)
+                                                    </label> 
+                                                 </div>
+                                        </div>
+                                         <!-- additional-info1开始 -->
+                                        <div class="additional-info1">
+                                            <div>
+                                                    <label class="pay-title pay-title1">使用优惠券
+                                                        <span class="coupon-available">
+                                                          <span class="highlight">0</span>&nbsp;张可用
+                                                        </span>
+                                                    </label>
+                                                    <div data-role="coupon-selector">
+                                                            <div class="dropdown coupon-select-dropdown open">
+                                                              <button type="button" class="dropdown-toggle"><span class="selected-coupon">暂不使用优惠券</span> <span class="caret caret1"></span></button>
+                                                              <ul class="dropdown-menu" role="menu">
+                                                                <li class="dropdown-menu-no"><a href="javascript:void(0)" class="selected">（默认）暂不使用优惠券</a></li>
+                                                                <li class="dividers"></li>
+                                                                <li class="dropdown-menu-yes"><a class="activate-coupon" href="javascript:void(0)">我有兑换码需要激活</a></li>
+                                                              </ul>
+                                                            </div>
+                                                        <div class="activate-coupon-form">
+                                                          <input type="number" name="coupon_code" id="coupon_code" placeholder="请输入优惠券兑换码">
+                                                          <a class="gd-btn gd-btn-primary gd-btn-narrow" data-disabled-with="激活中..." data-url="/activated_coupons" href="javascript:void(0)">使用</a>
+                                                        </div>
+                                                   </div>
+                                              </div>
+                                            <div>
+                                              <label class="pay-title">费用总计</label>
+                                              <ul class="price-summary alert alert-warning">
+                                                <li>
+                                                    <span class="title titleplan">专业版套餐</span><span class="amount original-amount amountprice">¥399.00</span>
+                                                </li>
+                                                <li><span class="title">优惠券抵扣</span><span class="amount coupon-amount">-¥0.00</span> </li>
+                                                <li><span class="title">余额扣除</span><span class="amount balance-amount">-¥0.00</span> </li>
+                                                <li>
+                                                    <span class="title">购买时长：</span>
+                                                    <span class="amount actual-amount">
+                                                     <button class="amountprice-jian">-</button>
+                                                     <input type="text" value='1' class="amountprice-c" maxlength="5" id="amountprice-c">
+                                                     <button class="amountprice-jia">+</button>
+                                                     </span>
+                                                </li>
+                                                <li class="alert-warninghou"><span class="title">还需支付</span><span class="amount actual-amount amountprice-b">399.00</span></li>
+                                              </ul>
+                                            </div>
+                                            <!-- <div class="pc-apply-invoice">
+                                                  <label class="pay-title">发票申请</label>
+                                                  <p class="text-muted pay-description">消费满199元，可在 “个人中心” -&gt; “费用中心” -&gt; “发票” 申请发票</p>
+                                            </div> -->
+                                            <div  id="feiyongzongji">
+                                                    <label class="need-pay pay-title">支付方式</label>
+                                                 <!--    <p class="text-muted pay-description">采用128位SSL加密的支付</p> -->
+                                                    <div class="gd-fixed-btn-group">
+                                                            <a class="gd-btn gd-btn-primaryzhifu btn-payment pingpp pingpp-alipay need-pay" data-disabled-with="获取支付二维码..." data-channel="alipay_qr" href="javascript:void(0)">
+                                                              <i class="gd-icon-alipay"></i>支付宝支付
+                                                            </a>       
+                                                             <a class="gd-btn gd-btn-primaryzhifu btn-payment pingpp pingpp-wxpay need-pay" data-disabled-with="获取支付二维码..." data-channel="wx_pub_qr" href="javascript:void(0)">
+                                                                <i class="gd-icon-wechat-pay"></i>微信支付
+                                                            </a>          
+                                                            <a class="gd-btn gd-btn-primaryzhifu bankpay need-pay" href="javascript:void(0)">
+                                                                <i class="gd-icon-bank-card"></i>银行转账
+                                                            </a>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                         <!-- additional-info1结束 -->        
+                                </div>
+                        </div>
+                        <!-- 支付宝二维码开始 -->
+                           <div class="pay-style">
+                                        <div class="modal-header">
+                                             <button type="button" class="closepricehou closepricehouma">×</button>
+                                                                    <h4 class="modal-title">套餐购买</h4>
+                                        </div>
+                                             <p class="account-info">账户：
+                                                                          七彩祥云 (1881042779)
+                                            </p>
+                                            <p class="message message1">支付宝扫码支付 399 元</p>
+                                            <div class="erweima">
+                                                暂无。。
+                                            </div>
+                                            <p>联系电话：010-57126899 </p>
+                             </div>
+                            <!-- 支付二维码结束 -->
+                            <!-- 微信支付二维码开始 -->
+                                 <div class="pay-style">
+                                        <div class="modal-header">
+                                             <button type="button" class="closepricehou closepricehouma">×</button>
+                                                                    <h4 class="modal-title">套餐购买</h4>
+                                        </div>
+                                             <p class="account-info">账户：
+                                                                          七彩祥云 (1881042779)
+                                            </p>
+                                            <p class="message message1">微信扫码支付 399 元</p>
+                                            <div class="erweima">
+                                                  暂无。。
+                                            </div>
+                                            <p>联系电话：010-57126899 </p>
+                             </div>
+                            <!-- 微信二维码结束 -->
+                            <!-- 银行转账开始 -->
+                            <div class="pay-style modal-body">
+                                        <div class="modal-header modal-headerbing">
+                                             <button type="button" class="closepricehou closepricehouma">×</button>
+                                                                    <h4 class="pay-title modal-title">银行电汇/转账</h4>
+                                        </div>
+                                        <p class="account-info account-infocenter">账户：
+                                                                          七彩祥云 (1881042779)
+                                            </p>
+                                             <p class="bankpay-info">
+                                                户名：国科创(北京)信息技术有限公司  <br>
+                                                开户行：招商银行北京工体支行 <br>
+                                                银行账号：0000 0000 0000 0000 <br>
+                                              </p>
+                                              <p class="message1">银行转账支付 399 元</p>
+                                              <!-- <p class="bankpay-note">
+                                                转账成功后，请回到此页面，点击下方“提交转账凭证”按钮填写转账信息。我们确认到款后，会第一时间为你升级套餐或充值。
+                                              </p>
+                                              <a class="gd-btn gd-btn-primary-solid gd-btn-wide" href="#">提交转账凭证</a> -->
+                                              <p>联系电话：010-57126899 </p>
+                             </div>
+                            <!-- 银行转账结束 -->
+                     </div>
+                     <!-- 模态框结束 -->
+                      <div class="buything">
+                        <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-primary-solid plan-btn plan-btn1" href="#1">立即购买</a>
+                       
+
+                      </div>
+                    </div>
+            </div>
+             <div class="plan plan-highlight popular popularding plans4">
+                    <div class="plan-inner plan-inner2">
+                      <h3 class="panel-title">专业版</h3>
+                      <!-- <div class="plan-target">职场人员、营销人员、公众号运营者</div> -->
+                        <div class="price-container">
+                        ￥<span class="price">199</span>/<span class="price-unit">月</span><span class="price" style="color:#CCC">|</span>
+                        ￥<span class="price">1999</span>/<span class="price-unit">年</span>
+                        </div>
+                    <ul class="description">
+                        <li>表单数：1000</li>
+                        <li>表单提交数：1万次/月</li>
+                        <li>数据存储：2G </li>
+                        <li>共享人数：1万人</li>
+                        <li>地图和自动报表</li>
+                        <li>移动端APP</li>
+                        <li>移动端离线地图功能</li>
+                        <li>在线表单构建</li>
+                        <li>在线表单问题库</li>
+                        <li>共享权限设定</li>
+                        <li>多语言支持</li>
+                        <li>支持：EMALL/QQ和电话等</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                    </ul>
+                      <div class="buything">
+                        <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-primary-solid plan-btn solidzhuan plan-btn1" href="#1111">立即购买</a>
+                        <!-- <div class="buythingxia">联系电话：010-57126899</div> -->
+                      </div>
+                    </div>
+            </div>
+            <div class="plan planpro">
+                <div class="plan-inner plan-inner3">
+                  <h3 class="panel-title">企业版</h3>
+                  <!-- <div class="plan-target">中小型团队</div> -->
+                  <div class="price-container">
+                 ￥<span class="price">399</span>/<span class="price-unit">月</span>
+                <span class="price" style="color:#CCC">|</span>￥<span class="price">3999</span>/<span class="price-unit">年</span>
+
+                 </div>
+
+                    <ul class="description">
+                        <li>表单数：1万</li>
+                        <li>表单提交数：10万次/月</li>
+                        <li>数据存储：8G </li>
+                        <li>共享人数：10万人</li>
+                        <li>地图和自动报表</li>
+                        <li>移动端APP</li>
+                        <li>移动端离线地图功能</li>
+                        <li>在线表单构建</li>
+                        <li>在线表单问题库</li>
+                        <li>共享权限设定</li>
+                        <li>多语言支持</li>
+                        <li>离线表单构建</li>
+                        <li>离线表单构建培训</li>
+                        <li>离线地图功能培训</li>
+                        <li>支持：EMALL/QQ和电话等</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                        <li class="trans111">&nbsp</li>
+                    </ul>
+                  <div class="buything">
+                    <a class="gd-btn gd-btn-thick gd-btn-wide gd-btn-primary-solid plan-btn plan-btn1 gd-btn-primary-solid-cyan" href="#111">立即购买</a>
+                     <!-- <div class="buythingxia">联系电话：010-57126899</div> -->
+                  </div>
+                </div>
+            </div>
+             <div class="plan plan-special plans4" data-can-pay="true">
+                <div class="plan-inner plan-inner4">
+                  <h3 class="panel-title">定制版</h3>
+                  <!-- <div class="plan-target">大型企业、集团</div> -->
+                  <div class="price-container">
+                    <span class="price"></span>￥定制价格
+                  </div>
+                   <ul class="description">
+                        <li>表单数：定制</li>
+                        <li>表单提交数：定制</li>
+                        <li>数据存储：定制 </li>
+                        <li>共享人数：定制</li>
+                        <li>地图和报表功能：定制</li>
+                        <li>在线地图功能扩展：可选</li>
+                        <li>移动端APP功能扩展：可选</li>
+                        <li>在线表单功能扩展：可选</li>
+                        <li>在线表单问题库扩展：定制</li>
+                        <li>共享权限设定：定制</li>
+                        <li>多语言支持：定制</li>
+                        <li>离线表单构建：定制</li>
+                        <li>离线表单构建培训：定制</li>
+                        <li>离线地图功能扩展：可选</li>
+                        <li>离线地图功能培训：定制</li>
+                        <li>在线表单构建培训：定制</li>
+                        <li>表单构建委托：可选</li>
+                        <li>部署到私有云：9999元/次</li>
+                        <li>部署到公有云：8888元/次</li>
+                        <li>更改logo：888元/次</li>
+                        <li>更改皮肤：可选</li>
+                        <li>支持：EMALL/QQ和电话等</li>
+                    </ul>
+                  <div>
+                    <a class="pay-btn gd-btn gd-btn-info gd-btn-thick gd-btn-wide" href="#">了解更多</a>
+                  </div>
+                </div>
+            </div>
+          
+         </div>
+    </div>
+</div>
+<!-- 表格结束 -->
+
+<div id="block-block-20" class="block block-block">
+
+
+    <div class="white" id="introvideo">
+        <section class="row"><!-- left side -->
+            <div class="six columns">
+                <h2 class="light">关于采云(CiiYUN)</h2>
+                <p class="smallbottompadding">
+                   CiiYUN是全球数以万计的环报学者、卫生工作者、研究人员和企业公司使用的数据采集工具。
+                    CiiYUN是一套可在多种环境中使的数据采集工具。我们的软件对公益事务优惠使用。CiiYUN被广泛用于自然资源保护，人道主义危机工作，以及发展中国家的援助项目等。
+                </p>
+            </div>
+            <!-- right side -->
+            <div class="six columns">
+                <img src="fonts/sddefault.jpg"></div>
+        </section>
+    </div>
+
+</div>
+<div id="block-block-10" class="block block-block">
+
+
+    <div class="white" id="about">
+        <section class="row heading">
+            <div class="twelve columns centered">
+              <!--   <p>
+                    CiiYUN是一套可在多种环境中使的数据采集工具。我们的软件对公益事务优惠使用。CiiYUN被广泛用于自然资源保护，人道主义危机工作，以及发展中国家的援助项目等。
+                </p> -->
+                <p>
+                   迅速收集准确的数据是信息提取、制定应对措施的关键步骤，尤其是在各种自然灾害之后，是抢险救灾的关键环节。CiiYUN是一个综合在线、离线功能的数据采集工具,利用移动设备和网络浏览器可以随时随地采集数据、汇总数据、发布数据，以应对各种高时效数据采集需求。
+                </p>
+                <p>
+                   CiiYUN软件的推出，使电子数据收集更加标准，更可靠，更易于在各种各种环境中使用。软件还在不断深入开发，许多新颖的功能不断的被添加到新的版本中。如果您有任何问题或建议，请随时与我们联系。
+                </p>
+            </div>
+        </section>
+    </div>
+
+</div>
+<div id="block-block-16" class="block block-block">
+
+
+    <div class="tint" id="partners">
+        <div class="row clients largepadding">
+            <div class="ten columns centered center midbottompadding support__harvard">
+                <!-- <h4>OPEN SOURCE DEVELOPMENT SUPPORTED BY</h4> -->
+                <img src="Environments_files/ciiyun_partners.png">
+            </div>
+            <div class="ten columns centered center midbottompadding support__harvard">
+                <!-- <h4>OPEN SOURCE DEVELOPMENT SUPPORTED BY</h4> -->
+                <img src="Environments_files/kobo_harvard.png">
+            </div>
+            <div class="ten columns centered center support__partners">
+                <!-- <h4>WITH ADDITIONAL SUPPORT FROM</h4> -->
+                <img src="Environments_files/kobo_partners.png">
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- 团队开始 -->
+<div id="block-block-13" class="block block-block">
+
+
+    <div class="grey" id="team">
+        <section class="row heading">
+            <h2 class="ten columns centered title-common">团队</h2>
+            <!-- Team images row 1 -->
+            <div class="twelve columns midtoppadding bigsidepadding">
+                <div class="four columns">
+                    <p align="left">
+                        <strong>Jiulin Sun</strong><br>院士<br>首席顾问
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>Zhao_liang&nbsp;Li</strong><br>研究员 千人计划入选者<br>高级顾问
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>Thomas&nbsp;Tang</strong><br>博士 中国科学院大学/法国斯特拉斯堡大学<br>合伙创始人
+                    </p>
+                </div>
+            </div>
+            <!-- Team images row 2 -->
+            <div class="twelve columns bigsidepadding">
+                <div class="four columns">
+                    <p align="left">
+                        <strong>Aqiang Yang</strong><br>博士 中国科学院大学<br>合伙创始人
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>陈军</strong><br>博士 成都理工大学<br>项目经理
+                    </p>
+                </div>
+            </div>
+            <!-- Team images row 3 -->
+            <div class="twelve columns bigsidepadding">
+                <div class="four columns">
+                    <p align="left">
+                        <strong>李治文</strong><br>服务器后端工程师
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>刘鸿钰</strong><br>测试工程师
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>李策</strong><br>移动端开发工程师
+                    </p>
+                </div>
+
+            </div>
+            <div class="twelve columns bigsidepadding">
+                <div class="four columns">
+                    <p align="left">
+                        <strong>曾欣科</strong><br>文案专员
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>杨冬旭</strong><br>WEB前端开发工程师
+                    </p>
+                </div>
+                <div class="four columns">
+                    <p align="left">
+                        <strong>马万里</strong><br>模型工程师
+                    </p>
+                </div>
+            </div>
+            <div class="ten columns centered bigtopmargin">
+                <h5>&nbsp;</h5>
+            </div>
+        </section>
+    </div>
+</div>
+<!-- 团队结束-->
+<div id="block-block-14" class="block block-block">
+
+
+    <div class="white" id="contact">
+        <section class="row heading midtoppadding midbottompadding">
+            <h3>联系我们</h3>
+        </section>
+        <section class="row heading smallbottompadding">
+            <div class="twelve columns center">
+                <!-- main icon -->
+                <!--<div class="main-icon">&nbsp;</div>-->
+                <!--&lt;!&ndash; columns info &ndash;&gt;-->
+                <!--<h4>-->
+                    <!--<a href="#">VISIT OUR SUPPORT PORTAL</a>-->
+                <!--</h4>-->
+                <p class="center" id="center-left">
+                        国科创(北京)信息技术有限公司 <br>
+                        地址：北京市朝阳区望京创业园 E302B <br>
+                        电话：010-57126899 <br>
+                        邮件：support@3scloud.com <br>
+                        网址：https://www.ciiyun.com
+                </p>
+            </div>
+        </section>
+        <!--<section class="row center midtopmargin">-->
+            <!--<p class="smallfont grey-text">Tested on BrowserStack</p>-->
+        <!--</section>-->
+    </div>
+
+
+</div>
+<footer>
+    <div class="region region-footer">
+        <div class="region region-footer">
+            <div id="block-block-5" class="block block-block">
+
+
+                <div class="content">
+                    <!-- social media icons -->
+                    <!--
+            <section class="row">
+                            <ul class="ring-list">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                            </ul>
+                        </section>
+            -->
+                    <section class="row center midtopmargin">
+                        <p>Copyright © 2017 CiiYUN Systems , ciiyun.com , All Rights Reserved</p>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- PROJECT DETAILS CONTAINER -->
+<div id="portfolio-detail">
+    <div class="loading-screen">
+        <div class="logo">
+            <!-- add your logo link -->
+            <img src="Environments_files/logo.png" alt="logo">
+        </div>
+    </div>
+    <div class="ajax-section">
+        <div class="clearfix">
+            <!-- PROJECT NAVIGATION AND CLOSE BUTTON -->
+            <div class="ajax-nav">
+                <section class="row">
+                    <ul class="project-nav" style="display: none;">
+                        <li class="closeProject">
+                            <a href="https://www.ciiyun.com//" style="display: none;"><i class="fa fa-times"></i></a>
+                        </li>
+                    </ul>
+                    <!-- END PROJECT NAVIGATION AND CLOSE BUTTON -->
+                </section>
+            </div>
+            <div class="loader">
+            </div>
+            <!-- PROJECT WILL LOAD INSIDE 'AJAX-INSIDE' -->
+            <div class="ajax-box">
+                <div id="ajax-outside">
+                    <div id="ajax-inside" style="height: auto;">
+                    </div>
+                </div>
+            </div>
+            <!-- END AJAX SECTION -->
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <!-- end ajax section -->
+</div>
+
+<!-- end portfolio detail -->
+
+
+<ul id="supersized" class="quality" style="visibility: visible;">
+    <li class="slide-0 activeslide">
+        <a target="_blank">
+            <img src="Environments_files/front_background2.jpg" style="width: 1077px; height: 710.82px; left: 3.5px; top: -124.5px;">
+        </a>
+    </li>
+</ul>
+<div style="clear: both;"></div>
+<div style="clear: both;"></div>
+</div>
+</body>
+</html>

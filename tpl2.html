@@ -1,0 +1,102 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="Environments_files/jquery.min.js"></script>
+<style>
+  
+</style>
+ <!-- 第二个 -->
+      <div class="tabs-rightzongnei2">
+          <div class="section-header">
+              <a class="titlea" href="#/shezhi">账户设置</a>
+          </div>
+          <div class="full-widthzong">
+                <div class="full-width">
+                    <span>邮箱</span>
+                    <span class="bluese gai-email">更改邮箱</span>
+                </div>
+                <div class="full-width">
+                    <span>密码</span>
+                    <span class="bluese gai-mima">修改登录密码</span>
+                </div>
+                <!-- <div class="full-width">
+                    <span>手机号码</span>
+                    <span>136****2345</span>
+                    <span class="bluese">修改手机号</span>
+                </div> -->
+                <div class="full-width">
+                    <span>昵称</span>
+                    <span>XXX</span>
+                    <span class="bluese gai-name">更改昵称</span>
+                </div>
+          </div>
+      </div>
+      <div id="touming2">
+               <div class="buythingxia2">
+                              <form method="post" action="">
+                                  <div class="buythingxia2tong buythingxia2-a ">
+                                      <div class="modal-header">
+                                          <button type="button" class="closephoto closephoto2">×</button>
+                                          <h4 class="modal-title">更改邮箱</h4>
+                                      </div>
+                                      <div class="modal-body modal-body1">
+                                           
+                                              <span>新的邮箱</span>
+                                              <input type="email" id="newemail">
+                                              <input type="submit" value="更改并验证" id="tijiaoe">
+                                      </div>
+                                  </div>
+                                 </form>
+                                 <form method="post" action="">
+                                    <div class="buythingxia2tong buythingxia2-b">
+                                      <div class="modal-header">
+                                          <button type="button" class="closephoto closephoto2">×</button>
+                                          <h4 class="modal-title">修改密码</h4>
+                                      </div>
+                                       <div class="modal-body">
+                                            <span>原密码</span>
+                                            <input type="password" class="newstyle yuanmima">
+                                             <span>新密码</span>
+                                            <input type="password" class="newstyle xinmima">
+                                             <span>新密码确认</span>
+                                            <input type="password" class="newstyle surexinmima">
+                                            <input type="submit" value="保存修改" id="tijiaoe"/>
+                                            <!-- <button class="tijiaoe">取消</button> -->
+                                      </div>
+                                  </div>
+                                  </form>
+                                  <form method="post" action="">
+                                    <div class="buythingxia2tong buythingxia2-c">
+                                      <div class="modal-header">
+                                          <button type="button" class="closephoto closephoto2">×</button>
+                                          <h4 class="modal-title">更改昵称</h4>
+                                      </div>
+                                       <div class="modal-body">
+                                            <span>新的昵称</span>
+                                            <input type="text" class="newstyle new-name" value="用户名">
+                                            <input type="submit" value="保存" id="tijiaoe">
+                                      </div>
+                                  </div>
+                                  </form>
+
+               </div>
+      </div>
+      <!-- 第二个结束 -->
+       <script>
+            $(".closephoto2").click(function(){
+               $('#touming2').hide();
+            })
+            $(".gai-email").click(function(){
+                $("#touming2").show();
+                $(".buythingxia2tong").css({"display":"none"});
+                $(".buythingxia2-a").css({"display":"block"});
+            })
+           $(".gai-mima").click(function(){
+                $("#touming2").show();
+                $(".buythingxia2tong").css({"display":"none"});
+                $(".buythingxia2-b").css({"display":"block"});
+            })
+            $(".gai-name").click(function(){
+                $("#touming2").show();
+                $(".buythingxia2tong").css({"display":"none"});
+                $(".buythingxia2-c").css({"display":"block"});
+            })
+      </script>

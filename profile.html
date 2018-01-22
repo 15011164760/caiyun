@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html class="not-ie js js no-touch gumby-no-touch webp csstransforms csstransforms3d csstransitions" lang="en" dir="ltr"
+      style="height: auto;" ng-app="App"><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="sites/toolbox/files/images/favicon.ico"
+          type="image/vnd.microsoft.icon">
+    <style type="text/css">.loading-screen .logo {
+        width: px;
+        height: px;
+    }</style>
+    <title>CiiYUN | Data Collection Tools for Challenging Environments</title>
+    <style type="text/css" media="all">
+        @import url("modules/system/system.base.css");
+        @import url("modules/system/system.menus.css");
+        @import url("modules/system/system.messages.css");
+        @import url("modules/system/system.theme.css");
+    </style>
+    <style type="text/css" media="all">
+        @import url("modules/comment/comment.css");
+        @import url("modules/field/theme/field.css");
+        @import url("modules/node/node.css");
+        @import url("modules/search/search.css");
+        @import url("modules/user/user.css");
+        @import url("sites/all/modules/views/css/views.css");
+        @import url("sites/all/modules/ckeditor/css/ckeditor.css");
+    </style>
+    <style type="text/css" media="all">
+        @import url("sites/all/modules/ctools/css/ctools.css");
+    </style>
+    <style type="text/css" media="all">
+        @import url("sites/toolbox/themes/Rise/css/gumby.css");
+        @import url("sites/toolbox/themes/Rise/css/payment.css");
+        @import url("sites/toolbox/themes/Rise/css/profile.css");
+        @import url("sites/toolbox/themes/Rise/css/style.css");
+        @import url("sites/toolbox/themes/Rise/css/mobile.css");
+        @import url("sites/toolbox/themes/Rise/css/drupal.css");
+        @import url("sites/toolbox/themes/Rise_sub/css/custom.css");
+        @import url("sites/toolbox/themes/Rise_sub/css/mobile_custom.css");
+    </style>
+    <script type="text/javascript" src="Environments_files/jquery.min.js"></script>
+    <script type="text/javascript" src="Environments_files/jquery.uploadView.js"></script>
+    <script type="text/javascript" src="Environments_files/drupal.js"></script>
+    <script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","js/analytics.js","ga");ga("create", "UA-26003863-1", {"cookieDomain":".ciiyun.com"});ga("send", "pageview");
+//--><!]]>
+    </script>
+    <script type="text/javascript" src="Environments_files/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="Environments_files/gumby.min.js"></script>
+    <script type="text/javascript" src="Environments_files/jquery.browser.min.js"></script>
+    <script type="text/javascript" src="Environments_files/plugins.js"></script>
+    <script type="text/javascript" src="Environments_files/main.js"></script>
+    <!-- <script src="Environments_files/angular.min.js"></script> -->
+    <!-- <script src="Environments_files/angular-route.min.js"></script> -->
+    <script type="text/javascript">
+	<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"rise_sub","theme_token":"_6fAdfz1uX3jPRdx_Wd_u4McfX9U8kHqxcNHtvLRqLM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/toolbox\/themes\/Rise\/js\/libs\/modernizr-2.6.2.min.js":1,"sites\/toolbox\/themes\/Rise\/js\/libs\/gumby.min.js":1,"sites\/toolbox\/themes\/Rise\/js\/jquery.browser.min.js":1,"sites\/toolbox\/themes\/Rise\/js\/plugins.js":1,"sites\/toolbox\/themes\/Rise\/js\/main.js":1,"sites\/toolbox\/themes\/Rise\/js\/matchMedia.js":1,"sites\/toolbox\/themes\/Rise\/js\/ajax.js":1,"sites\/toolbox\/themes\/Rise\/js\/jquery.tubular.1.0.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/toolbox\/themes\/Rise\/css\/gumby.css":1,"sites\/toolbox\/themes\/Rise\/css\/style.css":1,"sites\/toolbox\/themes\/Rise\/css\/mobile.css":1,"sites\/toolbox\/themes\/Rise\/css\/drupal.css":1,"sites\/toolbox\/themes\/Rise_sub\/css\/custom.css":1,"sites\/toolbox\/themes\/Rise_sub\/css\/mobile_custom.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":"1"}});
+//--><!]]>
+    </script>
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- abril font -->
+    <link href="Environments_files/css.css" rel="stylesheet" type="text/css">
+    <!-- san font -->
+    <link href="Environments_files/css(1).css" rel="stylesheet" type="text/css">
+    <!-- serif font -->
+    <link href="Environments_files/css(2).css" rel="stylesheet" type="text/css">
+
+    <!-- User defined CSS -->
+    <style type="text/css"></style><!-- End user defined CSS -->
+
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-3 node-type-page">
+<!-- header -->
+<div class="header-section">
+                    <div class="header-nav-logo">
+                          <a class="brand" data-no-turbolink="true" href="/home/#">
+                            <img src="Environments_files/kobologo.svg" alt="">
+                        </a>    
+                    </div>
+                    <ul id="ul-right">
+                        <li id="register-in">
+                            <a href="/accounts/register/">注册</a>
+                        </li>
+                        <li id="login-in">
+                            <a href="/accounts/login/">登录</a>
+                        </li>
+                        <li id="go-caiyun">
+                                 <a href="/#/forms" class="go-caiyun-a">进入采云</a>
+                        </li>
+                         <li id="user-auth">
+                            <span class="user-name">用户名</span>
+                            <span class="caret"></span>
+                             <a href="/accounts/logout/" id="login-out-user1">个人中心
+                            </a>
+                            <a href="/accounts/logout/" id="login-out-user">退出
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="clearboth"></div>
+ </div>
+<div class="title-div"> <span class="title">个人中心</span> </div>
+<div class="tabs-zong">
+<div class="tabs-left1zong">
+        <div class="tabs-left1">
+            <ul class="tabs-left1-ul"> 
+              <li class="yonghu">
+                <span>
+                      <img src="./img/kc_map1.jpg" alt="">
+                      <a href="javascript:void(0)" class="bianji">编辑</a>
+                     
+                </span>
+                <span class="yonghu-img">用户名</span>
+              </li>
+              <li class="yonghusee yonghusee1" style="background: #FFF"><a href="#">账户预览<span>></span></a></li>
+              <li class="yonghusee yonghusee2" style="background: #FFF"><a href="#">账户设置<span>></span></a></li>
+            </ul>
+        </div>
+</div>
+ <!-- 模态框开始 -->
+                      <div id="touming">
+                             <div class="buythingxia">
+                             <form method="post" action="/upload/" enctype="multipart/form-data" >
+                                <div class="modal-header">
+                                    <button type="button" class="closephoto">×</button>
+                                    <h4 class="modal-title">修改头像</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <h4 class="modal-title">照片</h4>
+                                    <div class="choosephoto">
+                                        <p class="choosephoto-p">请选择2MB以内的JPG、GIF、PNG、JPEG、BMP格式的照片
+                                        </p>
+                                       <!--  <div class="choosephoto-file">
+                                          <input type="file" id="upload_avatar" class="js_upFile">
+                                          <span>选择照片</span>
+                                        </div> -->
+                                         <!-- kai -->
+                                        <div class="control-group js_uploadBox">
+                                                <div class="btn-upload choosephoto-file ">
+                                                   <!--  <input class="js_upFile" type="file" name="cover" id="upload_avatar"> -->
+                                                     <span>选择照片</span>
+                                                </div>
+                                                <div class="js_showBox "><img class="js_logoBox" width="100px" ></div>
+                                          </div>
+                                          <!-- jie -->
+                                    </div>
+                                </div>
+                                <div class="modal-header modal-header1">
+                                    <input type="submit" value="保存新头像" class="modal-header1-inp1" id="change_avatar">
+                                </div>
+                                </form>
+                           </div>
+                     </div>
+                     <!-- 模态框结束 -->
+<div class="tabs-rightzong">
+      <div class="tabs-rightzongnei">
+                          <div class="section-body plan-overview">
+                            <span class="current-plan"> 当前套餐：
+                              <span class="name-with-vip-style">
+                                <span class="free-user">
+                                  <span class="user-nickname">免费版</span>
+                                </span>
+                              </span>
+                              <a class="gd-btn gd-btn-primary-solid gd-btn-primary-solid-shen"  href="/payment">升级套餐</a>
+                            </span>
+                            <span class="pull-right">
+                              <span class="plan-balance">账户余额:<span class=""> ¥0.00</span></span>
+                            </span>
+                        </div>
+                         <div class="section-body plan-overview1">
+                                <span class="current-plan1">当月套餐使用情况
+                                </span>
+                        </div>
+                        <div class="section-body plan-overview11 plan-overview1">
+                                <div class="plan-overview1-div">
+                                  <div class="left-text1">
+                                      <span style="font-size: 16px">表单数</span>
+                                      <span style="color:green">余量：10条</span>
+                                      <span style="color:#FF6A00">已用：0条</span>
+                                      <span>表单总数：10条</span>
+                                  </div>
+                                </div>
+                                 <div class="plan-overview1-div">
+                                  <div class="left-text1">
+                                      <span style="font-size: 16px">表单提交数</span>
+                                      <span style="color:green">余量：100条</span>
+                                      <span style="color:#FF6A00">已用：0条</span>
+                                      <span>表单总数：100条</span>
+                                  </div>
+                                </div>
+                                 <div class="plan-overview1-div">
+                                  <div class="left-text1">
+                                      <span style="font-size: 16px">数据存储</span>
+                                      <span style="color:green">余量：500M</span>
+                                      <span style="color:#FF6A00">已用：0M</span>
+                                      <span>表单总数：500M</span>
+                                  </div>
+                                </div>
+                                 <div class="plan-overview1-div plan-overview1-div-last">
+                                  <div class="left-text1">
+                                      <span style="font-size: 16px">共享人数</span>
+                                      <span style="color:green">余量：100人</span>
+                                      <span style="color:#FF6A00">已共享：0人</span>
+                                      <span><span>共享总人数：100人</span>
+                                  </div>
+                                </div>
+                        </div>
+      </div>
+ <!-- 第二个 -->
+      <div class="tabs-rightzongnei2">
+          <div class="section-header">
+              <a class="titlea" href="#">账户设置</a>
+              <a class="titlea1" href="javascript:void(0)">编辑资料</a>
+          </div>
+          <div class="full-widthzong">
+                <div class="full-width">
+                    <span>昵称</span>
+                    <span>XXX</span>
+                    <span class="bluese gai-name">更改昵称</span>
+                </div>
+                <div class="full-width">
+                    <span>邮箱</span>
+                    <span class="bluese gai-email">邮箱号</span>
+                </div>
+                <div class="full-width">
+                    <span>密码</span>
+                    <span class="bluese gai-mima">修改登录密码</span>
+                </div>
+                <div class="full-width">
+                    <span>手机号码</span>
+                    <span class="bluese gai-phone">手机号码</span>
+                </div>
+                 <div class="full-width gai-qq">
+                    <span>QQ号码</span>
+                    <span class="bluese">QQ号</span>
+                </div>
+          </div>
+      </div>
+      <div id="touming2">
+               <div class="buythingxia2">
+                               <form method="post" action="#/" enctype="multipart/form-data">
+                                      <!-- <div class="buythingxia2-b">
+                                          <div class="modal-header">
+                                              <button type="button" class="closephoto closephoto2">×</button>
+                                              <h4 class="modal-title">修改密码</h4>
+                                          </div>
+                                           <div class="modal-body">
+                                                  <span>原密码</span>
+                                                  <input type="password" name="oldpassword" class="newstyle yuanmima" placeholder="输入原密码">
+                                                   <span>新密码</span>
+                                                  <input type="password" name="newpassword" class="newstyle xinmima" placeholder="匹配长度在6~20之间的字母、数字" maxlength="20">
+                                                   <span class="errtishi errtishi3" style="display: none;">密码输入有误</span>
+                                                   <span>新密码确认</span> 
+                                                  <input type="password" name="newpassword" class="newstyle surexinmima" placeholder="再次输入新密码" maxlength="20">
+                                                  <input type="submit" value="保存修改" id="tijiaoe" placeholder="确认新密码" class="subemail">
+                                          </div>
+                                       </div> -->
+                                       <div class='xform-ul buythingxia2-b'>
+                                             <div class="modal-header">
+                                                <button type="button" class="closephoto closephoto2">×</button>
+                                               <h4 class="modal-title">修改密码</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class='form-label'>原密码：</div>
+                                                <div class='form-input'>
+                                                    <input type='password' id="oldpassword" name="oldpassword"/>
+                                                    <div style="display: inline" id="tip1"></div>
+                                                </div> 
+                                                <div class='form-label'>新密码：</div>
+                                                <div class='form-input'>
+                                                    <input type='password' id="password1" name="password1" placeholder="匹配长度在6~20之间的字母、数字" maxlength="20"/>
+                                                    <div style="display: inline" id="tip2">
+                                                    </div> 
+                                                </div> 
+                                                 <div class='form-label'>新密码确认：</div>
+                                                <div class='form-input'>
+                                                    <input type='password' id="password2" name="password2" placeholder="必须与第一个匹配" maxlength="20"/>
+                                                    <div style="display: inline" id="tip3">       </div>
+                                                </div>
+                                                <div class="btn-submit">
+                                                     <div id="btn">保存修改</div>
+                                                </div>
+                                                <div id="tip4"></div>
+                                            </div>
+                                        </div>
+                                     </form>
+                                          <!--   <li>
+                                                <div class='form-label'>新密码：</div>
+                                                <div class='form-input'>
+                                                    <input type='password' id="password1" name="password1" placeholder="匹配长度在6~20之间的字母、数字"/><div style="display: inline" id="tip2">
+                                                </div>
+                                            </li> -->                            
+                                         <!--    <li>
+                                                <div class='form-label'>新密码确认：</div>
+                                                <div class='form-input'>
+                                                    <input type='password' id="password2" name="password2" placeholder="必须与第一个匹配"/><div style="display: inline" id="tip3">                                       
+                                                </div>
+                                            </li> -->
+                                           <!--  <li class="text-center">
+                                                <div class="btn-submit"><div id="btn">保存修改</div></div>
+                                            </li> -->
+                                            <!-- <li class="text-center">
+                                                <div id="tip4"></div>
+                                            </li> -->
+                                   
+                                      <!--      <form method="post" action="">
+                                  <div class="buythingxia2-a ">
+                                      <div class="modal-header">
+                                          <button type="button" class="closephoto closephoto2">×</button>
+                                          <h4 class="modal-title">更改邮箱</h4>
+                                      </div>
+                                      <div class="modal-body modal-body1">
+                                              <span>新的邮箱</span>
+                                              <input type="email" name="newemail" id="newemail" placeholder="再次输入邮箱" class="newstyle">
+                                              <input type="submit" value="更改并验证" id="tijiaoe">
+                                      </div>
+                                  </div>
+                                 </form> -->
+                                 <form method="post" action="#/" enctype="multipart/form-data">
+                                 <!-- 6.30密码开始 -->
+                                    <div class="buythingxia2-c">
+                                      <div class="modal-header">
+                                          <button type="button" class="closephoto closephoto2">×</button>
+                                          <h4 class="modal-title">编辑资料</h4>
+                                      </div>
+                                       <div class="modal-body">
+                                            <span>昵称</span>
+                                            <input type="text" name="newname" class="newstyle new-name" placeholder="输入昵称">
+                                            <span>手机号</span>
+                                            <input type="text" name="phonenum" class="newstyle new-phone" placeholder="输入手机号码" value=''>
+                                            <span>QQ号码</span>
+                                            <input type="text" name="qqnum" class="newstyle new-qq" placeholder="请输入QQ">
+                                            <span class="errtishi2 errtishi" style="display: none;">手机号码或者qq号码有误，请重填</span>
+                                            <input type="submit" value="保存" id="tijiaoe" class="suball">
+                                      </div>
+                                    </div>
+                                    <!-- 6.30密码结束 -->
+                                 </form>
+
+               </div>
+      </div>
+      <!-- 第二个结束 -->
+      <!-- <iframe width=100% height=900 frameborder=0 scrolling=no border=0 src="tpl.html"></iframe> -->
+</div>
+</div>
+<div class="container-shengji">
+    <div class="shengji">
+        <p class="stress warning-text"><strong>你的数据余量即将用完</strong></p>
+        <p class="warning-content warning-text">你当前套餐内的数据余量即将用完，请尽快升级套餐以保证账号正常收集数据。<br>我们为免费用户提供的数据余量为条100/月。若需要收集更多数据，建议你升级到付费版。<span class="text-muted ">如需帮助，请点此<a target="_blank" href="/home">联系我们</a></span></p>
+         <!--  <a class="gd-btn gd-btn-primary-solid gd-btn-primary-solid-shen" href="/payment">升级套餐</a> -->
+    </div>
+</div>
+</body>
+</html>
